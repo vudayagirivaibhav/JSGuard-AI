@@ -1,6 +1,5 @@
-// src/ai/modelLoader.js
+const tf = require('@tensorflow/tfjs');
 
-const tf = require('@tensorflow/tfjs-node');
 
 const loadModel = async () => {
   // TODO: Load the AI model

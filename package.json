@@ -22,13 +22,9 @@
     "eslint": "^7.32.0",
     "jest": "^27.0.6",
     "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0",
-    "@tensorflow/tfjs-node": "^3.11.0"
+    "webpack-cli": "^4.8.0"
   },
-  "scripts": {
-    "test": "jest --coverage",
-    "lint": "eslint .",
-    "build": "webpack",
-    "prepublishOnly": "npm test && npm run lint && npm run build"
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.21.0"
   }
 }
