@@ -1,0 +1,49 @@
+# Source files (only ship dist/)
+src/
+tests/
+training/
+benchmarks/
+examples/
+docs/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+rollup.config.js
+vitest.config.ts
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Development
+*.test.ts
+*.spec.ts
+*.test.tsx
+*.spec.tsx
+coverage/
+
+# Documentation
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

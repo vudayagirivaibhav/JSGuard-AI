@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist/types",
+    "rootDir": "./src",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@jsguard/core/*": ["src/core/*"],
+      "@jsguard/types": ["src/types"],
+      "@jsguard/detectors/*": ["src/detectors/*"],
+      "@jsguard/watchers/*": ["src/watchers/*"],
+      "@jsguard/actions/*": ["src/actions/*"],
+      "@jsguard/scoring/*": ["src/scoring/*"],
+      "@jsguard/compliance/*": ["src/compliance/*"],
+      "@jsguard/ai/*": ["src/ai/*"],
+      "@jsguard/utils/*": ["src/utils/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "tests", "examples", "training", "benchmarks"]
+}
